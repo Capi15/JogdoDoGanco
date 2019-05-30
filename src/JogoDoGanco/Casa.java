@@ -7,15 +7,22 @@ package JogoDoGanco;
  */
 public class Casa {
     
-    private final int[] casa = new int[63];
+    private String casaEspecial;
+    private EnumCasas tipo;
+    private int pos;
     
-    public Casa(){
-        
+    
+    
+    public Casa(EnumCasas tipo, int pos){
+        this.tipo = tipo;
+        this.pos = pos;
     }
-
-    public int[] getCasa() {
-        return casa;
+ 
+    public EnumCasas getTipoCasa(){
+        return tipo;
     }
     
-    
+    public int getPos(){
+        return pos;
+    }
 }
