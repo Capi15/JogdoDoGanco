@@ -13,7 +13,7 @@ public class ListaLigada<T> {
 
     //Construtor da lista, define os valores iniciais dos apontadores como null
     //e o seu tamanho como 0
-    private ListaLigada() {
+    public ListaLigada() {
         this.head = null;
         this.last = null;
         this.size = 0;
@@ -63,9 +63,9 @@ public class ListaLigada<T> {
             return this;
         }
         //se o tamanho da lista for maior do que 1, os valores da da variável 
-        //head do Nodeanterior são armazenados na variavel temporária newLast
+        //head do Node anterior são armazenados na variavel temporária newLast
         //que atribui o seu valor à variável last. A variavel head adquire 
-        // o vlor do previous last e por fim é decrentado uma unidade ao tamanho
+        // o vlor do previous last e por fim é decrementado uma unidade ao tamanho
         // da lista ligada
         Node<T> newLast = this.last.getPrevious();
         newLast.setNext(this.head);

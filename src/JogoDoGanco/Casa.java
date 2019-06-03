@@ -1,5 +1,7 @@
 package JogoDoGanco;
 
+import static JogoDoGanco.EnumCasas.CASAGANCO;
+
 /**
  *
  * @author Bruno Ribeiro
@@ -9,9 +11,7 @@ public class Casa {
     
     private String casaEspecial;
     private EnumCasas tipo;
-    private int pos;
-    
-    
+    private int pos = 0;
     
     public Casa(EnumCasas tipo, int pos){
         this.tipo = tipo;
