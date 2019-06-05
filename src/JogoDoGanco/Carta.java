@@ -7,20 +7,12 @@ import java.util.Random;
  * @author Bruno Ribeiro
  * nº 21514
  */
-public class Carta {
-    
-    
-    private EnumCartas enumCartas;
-    private Casa casa;
+public abstract class Carta {
 
-    
-    public Carta(EnumCartas enumCartas){
-        this.enumCartas = enumCartas;
+    public int pos;
+
+    public Carta(int pos) {
+        this.pos = 0;
     }
 
-    
-    public int pos(){
-        int pos = casa.getPos();
-        return pos;
-    }
 }
