@@ -9,10 +9,7 @@ import java.util.Random;
  */
 public class Dados {
     
-    public Dados(){
-        atiraDados();
-    }
-    public int atiraDados(){
+    public static int atiraDados(){
         int face1; //número do primeiro dado
         int face2; //número do segundo dado
         int total; //soma total das faces dos dados
