@@ -15,6 +15,7 @@ public class CartaSalto extends Carta {
     public CartaSalto(int pos, int noCasas) {
         super(pos);
         this.noCasas = noCasas;
+        pos = pos  + noCasas;
     }
 
     public int getNoCasas() {

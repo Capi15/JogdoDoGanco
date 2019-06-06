@@ -6,7 +6,7 @@ package JogoDoGanso;
  * nº 21514
  */
 public class Fichas {
-    private final int nFichas;
+    private int nFichas;
     
     public Fichas(int nFichas){
         this.nFichas = nFichas;
@@ -15,6 +15,10 @@ public class Fichas {
 
     public int getNFichas() {
         return nFichas;
+    }
+
+    public void setnFichas(int nFichas) {
+        this.nFichas = nFichas;
     }
     
 }

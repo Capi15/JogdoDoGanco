@@ -11,19 +11,19 @@ package JogoDoGanso;
  */
 public class CartaPergunta extends Carta {
     
-    private String pergunta;
+    private String perguntaR;
     private String resposta;
     private String resultadoResposta;
     private int novaPosicao;
     
-    public CartaPergunta(int pos, String pergunta, String resposta) {
+    public CartaPergunta(int pos, String perguntaR, String resposta) {
         super(pos);
-        this.pergunta = pergunta;
+        this.perguntaR = perguntaR;
         this.resposta = resposta;
     }
 
     public String getPergunta() {
-        return pergunta;
+        return perguntaR;
     }
 
     public String getResposta() {
@@ -41,11 +41,14 @@ public class CartaPergunta extends Carta {
     
     
     public String comparaResposta(){
-        if (pergunta == resposta){   
+        Fichas ficha = null;
+        int x = 5;
+        if (perguntaR == resposta){   
         pos += novaPosicao;
         return resultadoResposta = "Você acertou";
         }else
             pos = pos;
+            ficha.setnFichas(ficha.getNFichas() - x);
         return resultadoResposta = "Você errou";
     }
     
