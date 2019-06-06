@@ -1,4 +1,4 @@
-package JogoDoGanco;
+package JogoDoGanso;
 
 /**
  *
@@ -15,7 +15,7 @@ public class Tabuleiro {
         String getResposta ="";
         for (int i = 1; i <= 63; i++) {
             if (i % 9 == 0 || i % 5 == 0) {
-                tab.push(new Casa(EnumCasas.CASAGANCO, i));
+                tab.push(new Casa(EnumCasas.CASAGANSO, i));
                 continue;
             }
             switch (i) {

@@ -1,4 +1,4 @@
-package JogoDoGanco;
+package JogoDoGanso;
 
 /**
  *

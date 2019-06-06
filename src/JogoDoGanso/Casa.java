@@ -1,6 +1,6 @@
-package JogoDoGanco;
+package JogoDoGanso;
 
-import static JogoDoGanco.EnumCasas.CASAGANCO;
+import static JogoDoGanso.EnumCasas.CASAGANSO;
 
 /**
  *
