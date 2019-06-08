@@ -13,11 +13,9 @@ public class CartaPergunta extends Carta {
     
     private String perguntaR;
     private String resposta;
-    private String resultadoResposta;
     private int novaPosicao;
     
-    public CartaPergunta(int pos, String perguntaR, String resposta) {
-        super(pos);
+    public CartaPergunta(String perguntaR, String resposta) {
         this.perguntaR = perguntaR;
         this.resposta = resposta;
     }
@@ -30,26 +28,12 @@ public class CartaPergunta extends Carta {
         return resposta;
     }
 
-    public String getResultadoResposta() {
-        return resultadoResposta;
-    }
-
     public int getNovaPosicao() {
         return novaPosicao;
     }
     
-    
-    
-    public String comparaResposta(){
-        Fichas ficha = null;
-        int x = 5;
-        if (perguntaR == resposta){   
-        pos += novaPosicao;
-        return resultadoResposta = "Você acertou";
-        }else
-            pos = pos;
-            ficha.setnFichas(ficha.getNFichas() - x);
-        return resultadoResposta = "Você errou";
+    public boolean comparaResposta(String respostaDoUtilizador){
+        return this.resposta.equalsIgnoreCase(respostaDoUtilizador);
     }
     
 }

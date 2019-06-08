@@ -9,7 +9,6 @@ import static JogoDoGanso.EnumCasas.CASAGANSO;
  */
 public class Casa {
     
-    private String casaEspecial;
     private EnumCasas tipo;
     private int pos = 0;
     

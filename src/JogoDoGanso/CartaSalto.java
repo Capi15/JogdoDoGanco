@@ -12,10 +12,8 @@ package JogoDoGanso;
 public class CartaSalto extends Carta {
     
     private int noCasas;
-    public CartaSalto(int pos, int noCasas) {
-        super(pos);
+    public CartaSalto(int noCasas) {
         this.noCasas = noCasas;
-        pos = pos  + noCasas;
     }
 
     public int getNoCasas() {

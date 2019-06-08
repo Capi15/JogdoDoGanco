@@ -12,8 +12,7 @@ package JogoDoGanso;
 public class CartaMulta extends Carta {
     
     private int noFichas;
-    public CartaMulta(int pos, int noFichas) {
-        super(pos);
+    public CartaMulta(int noFichas) {
         this.noFichas = noFichas;
     }
 

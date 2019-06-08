@@ -20,7 +20,7 @@ public class Dados {
         face2 = 1 + rnd.nextInt(6);
         
         total = face1 + face2; //a soma dos dados é armazenada na variável total
-        System.out.print(total); // imprime o valor da variável total
+        //System.out.print(total); // imprime o valor da variável total
         return total; //devolve o valor da variável total   
     }
 }

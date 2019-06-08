@@ -9,13 +9,10 @@ package JogoDoGanso;
  *
  * @author bruno
  */
-public class Teste {
+public class Main {
     
     public static void main (String[] args){
-        Print pir = new Print();
-        int menu = 0;
-        do{
-            
-        }while(menu == 5);
+        Jogo jogo = new Jogo();
+        jogo.start();
     }
 }

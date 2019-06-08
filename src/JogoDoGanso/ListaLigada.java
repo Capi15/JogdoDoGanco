@@ -46,7 +46,7 @@ public class ListaLigada<T> {
             this.size += 1;
             return this;
         }
-        return null;
+        return this;
     }
 
     //este método permite retirar Nodes à lista
@@ -78,5 +78,13 @@ public class ListaLigada<T> {
     //permite ver o último elemento da lista
     public Node<T> peek() {
         return this.last;
+    }
+    
+    public Node<T> getHead() {
+        return this.head;
+    }
+    
+    public int size() {
+        return this.size;
     }
 }

@@ -10,7 +10,7 @@ package JogoDoGanso;
  * @author bruno
  */
 public class Print {
-    public Print(){
+    public static void header(){
         
         
 

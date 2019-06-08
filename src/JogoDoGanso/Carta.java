@@ -8,11 +8,4 @@ import java.util.Random;
  * nº 21514
  */
 public abstract class Carta {
-
-    public int pos;
-
-    public Carta(int pos) {
-        this.pos = 0;
-    }
-
 }
