@@ -11,27 +11,37 @@ package JogoDoGanso;
  */
 public class CartaPergunta extends Carta {
     
-    private String perguntaR;
+    private String pergunta;
     private String resposta;
     private int novaPosicao;
     
-    public CartaPergunta(String perguntaR, String resposta) {
-        this.perguntaR = perguntaR;
+    //Este construtor permite receber uma pergunta e uma resposta
+    public CartaPergunta(String pergunta, String resposta) {
+        this.pergunta = pergunta;
         this.resposta = resposta;
     }
 
+    //acessa ao conteúdo da variável pergunta 
     public String getPergunta() {
-        return perguntaR;
+        return pergunta;
     }
 
+    //acessa ao conteúdo da variável resposta
     public String getResposta() {
         return resposta;
     }
 
+    //acessa ao valor da nova posição
     public int getNovaPosicao() {
         return novaPosicao;
     }
+
+    //permite atualizar os valores da posição
+    public void setNovaPosicao(int novaPosicao) {
+        this.novaPosicao = novaPosicao;
+    }
     
+    //verifica se a resposta do utilizador é verdadeira ou falsa
     public boolean comparaResposta(String respostaDoUtilizador){
         return this.resposta.equalsIgnoreCase(respostaDoUtilizador);
     }

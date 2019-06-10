@@ -12,10 +12,13 @@ package JogoDoGanso;
 public class CartaSalto extends Carta {
     
     private int noCasas;
+    
+    //recebe o nº de casas remetentes ao salto
     public CartaSalto(int noCasas) {
         this.noCasas = noCasas;
     }
 
+    //vai buscar o vlar do número de casas que foram saltadas
     public int getNoCasas() {
         return noCasas;
     }

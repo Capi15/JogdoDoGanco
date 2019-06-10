@@ -12,10 +12,14 @@ package JogoDoGanso;
 public class CartaMulta extends Carta {
     
     private int noFichas;
+    
+    //recebe como parametro o noFichas total a pagar e Atualiza o Numero total
+    //de fichas disponiveis em jogo
     public CartaMulta(int noFichas) {
-        this.noFichas = noFichas;
+        this.noFichas = noFichas; 
     }
 
+    //devolve o número de fichas a pagar
     public int getNoFichas() {
         return noFichas;
     }

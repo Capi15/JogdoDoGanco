@@ -4,11 +4,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/Main.java</file>
+            <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/JogadorSingle.java</file>
+            <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/JogadorMultiplayer.java</file>
             <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/Tabuleiro.java</file>
             <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/Casa.java</file>
             <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/ListaLigada.java</file>
             <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/Node.java</file>
             <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/Jogo.java</file>
+            <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/Jogador.java</file>
             <file>file:/C:/Users/bruno/OneDrive/Documentos/NetBeansProjects/JogoDoGanco/src/JogoDoGanso/Print.java</file>
         </group>
     </open-files>

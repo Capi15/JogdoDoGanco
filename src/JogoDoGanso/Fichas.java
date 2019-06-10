@@ -8,15 +8,18 @@ package JogoDoGanso;
 public class Fichas {
     private int nFichas;
     
+    //permite definir com quantas fichas se começa o jogo
     public Fichas(int nFichas){
         this.nFichas = nFichas;
-        nFichas = 50;
     }
 
+    
+    // retorna o valor atual das fichas
     public int getNFichas() {
         return nFichas;
     }
 
+    //permite atualizar o número de fichas
     public void setnFichas(int nFichas) {
         this.nFichas = nFichas;
     }

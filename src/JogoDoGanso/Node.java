@@ -1,5 +1,7 @@
 package JogoDoGanso;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Bruno Ribeiro nº 21514
@@ -7,7 +9,7 @@ package JogoDoGanso;
  * 
  * Classe Genérica do tipo Node
  */
-public class Node<T> {
+public class Node<T> implements Serializable {
 
     private T data;
     private Node<T> next;

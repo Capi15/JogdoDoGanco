@@ -7,12 +7,17 @@ package JogoDoGanso;
  */
 public class Jogo {
     
-    private Tabuleiro tabuleiro;
-    
+    private String[] tipoJogo = new String [2];
+    Tabuleiro tabuleiro;
+    private Casa casa;
+    Fichas ficha;
+
+    //inicia o tabuleiro
     public Jogo() {
         this.tabuleiro = new Tabuleiro();
     }
 
+    //onde ocorre o jogo
     public void start() {
         int steps = Dados.atiraDados();
         System.out.println("avancar: " + steps);
@@ -29,5 +34,8 @@ public class Jogo {
         System.out.println(this.tabuleiro.getNextCarta());
         System.out.println(this.tabuleiro.getNextCarta());
         System.out.println(this.tabuleiro.getNextCarta());
+        
+
     } 
+    
 }

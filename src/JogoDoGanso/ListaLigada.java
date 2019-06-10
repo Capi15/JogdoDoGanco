@@ -1,11 +1,13 @@
 package JogoDoGanso;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Bruno Ribeiro 
  * nº 21514
  */
-public class ListaLigada<T> {
+public class ListaLigada<T> implements Serializable {
 
     private Node<T> head;
     private Node<T> last;
@@ -80,10 +82,12 @@ public class ListaLigada<T> {
         return this.last;
     }
     
+    //permite aceder ao primeiro elemento da lista
     public Node<T> getHead() {
         return this.head;
     }
     
+    //devolve o tamanho atual da lista
     public int size() {
         return this.size;
     }
